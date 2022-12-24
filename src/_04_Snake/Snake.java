@@ -37,13 +37,28 @@ public class Snake {
 		 * Create variables for the next X and Y location of the snake's head.
 		 * Initialize them to the current X and Y locations.
 		 */
-
+		int x = head.getLocation().x;
+		int y = head.getLocation().y;
 		/*
 		 * Use a switch statement to check on the currentDirection of the snake and
 		 * calculate the head's next x and y position. Depending on the direction, the
 		 * variables you created may increase or decrease by 1.
 		 */
-
+		switch(currentDirection) {
+		case UP:
+		break;
+		case DOWN:
+		break;
+		case LEFT:
+		break;
+		case RIGHT:
+		break;
+		default:
+		System.out.println("Out of bounds!");
+		
+		
+		
+		}
 		/*
 		 * Change the Location of each SnakeSegment in your snake ArrayList to the
 		 * Location of the segment in front of it.
